@@ -1,0 +1,37 @@
+body{
+ background-image: url("a1.jpg");
+}
+
+h1 {     		text-shadow: 2px 2px 5px white;
+				font-family: "Cambria Math";
+				color:black;
+				font-size: 60;
+    }
+	
+button {
+  border: 0;
+  background: #0087cc;
+  border-radius: 4px;
+  box-shadow: 0 5px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 12px 20px;
+  transition: all .05s linear;
+}
+button:active {
+  box-shadow: 1px 2px 0 #006599;
+  transform: translateY(3px);
+}
+
+div{
+	
+	border: solid 2px;
+	border-radius: 10px;
+	color: white;
+	width: auto;
+	padding: 15px;
+	border-color: black; 
+}
