@@ -2,6 +2,7 @@
 header("access-control-allow-origin: *");
 error_reporting(0);
 $file='data1.txt';
+echo "success";
 if( $_GET['data']) {
 	file_put_contents($file, $_GET['data']);
 	echo "success";
